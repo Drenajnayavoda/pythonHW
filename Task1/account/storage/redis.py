@@ -1,5 +1,5 @@
 from typing import Optional, List
-
+import redis
 from account.model import Account
 from account.storage.protocol import AccountsStorageProtocol
 
